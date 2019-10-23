@@ -1,14 +1,19 @@
 @font-face {
     font-family: "HeyAugust";
     src: url("HeyAugust.ttf");
+    font-family: "Harmony";
+    src: url("Harmony.otf");
    }
    
 body{
     font-family: monospace;
-    background: url("img/Fond1.jpg")no-repeat;
+    background: url("img/Fond.jpg")no-repeat;
     background-size: 100%;
 }
 
+p{
+    font-family: "Harmony";
+}
 #logo{
     margin:20px auto;
     text-align:center;
@@ -25,25 +30,27 @@ body{
     position: relative;
     border-radius: 60px;
     border: 5px solid #563345;
+    margin-top: 4%;
 }
 
 #start{
     font-size: 1.5em;
     font-weight: bolder;
     word-break: break-all;
-    width:100px;
-    height:150px;
+    width:30%;
+    height:10%;
     border : 2px solid lightgrey;
     text-align: center;
     cursor: pointer;
     position: absolute;
-    left:300px;
-    top:50px;
+    left:35%;
+    top:42%;
     color : lightgrey;
+    padding-top: 1%;
 }
 #start:hover{
-    border: 3px solid lightseagreen;
-    color : lightseagreen;
+    border: 3px solid #7fc4e0;
+    color : #7fc4e0;
 }
 
 #qImg{
@@ -66,7 +73,7 @@ body{
     height : 125px;
     position: absolute;
     right:0;
-    top:0;
+    top:7%;
 }
 #question p{
     margin : 0;
@@ -75,24 +82,27 @@ body{
 }
 
 #choices{
-    margin-top:15%;
+    margin-top:5%;
     width : 480px;
     position: absolute;
     right : 0;
-    top : 125px;
-    padding : 10px
+    top : 115px;
+    left: 40%;
+    font-family: HeyAugust;
 }
 .choice{
     display: inline-block;
     width : 135px;
     text-align: center;
     border : 1px solid grey;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     padding : 5px;
+    background: #7fc4e0;
+    font-family: HeyAugust;
 }
 .choice:hover{
-    border : 2px solid grey;
+    border : 2px solid #7fc4e0;
     font-weight: bold;
 }
 
@@ -112,14 +122,14 @@ body{
     height : 10px;
     border-radius: 10px;
     background-color: lightgray;
-    margin-left : 25px;
+    margin-left : 55%;
 }
 #timeGauge{
     height : 10px;
     border-radius: 10px;
     background-color: #563345;
     margin-top : -10px;
-    margin-left : 25px;
+    margin-left : 55%;
 }
 #progress{
     width : 500px;
