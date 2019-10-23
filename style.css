@@ -1,8 +1,12 @@
+@font-face {
+    font-family: "HeyAugust";
+    src: url("HeyAugust.ttf");
+   }
+   
 body{
-    font-size: 20px;
     font-family: monospace;
-    background: url("Fond.jpg");
-    
+    background: url("img/Fond1.jpg")no-repeat;
+    background-size: 100%;
 }
 
 #logo{
